@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Main2 {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a num:- ");
+        int num = sc.nextInt(); // 123
+        int res = 0;
+        while(num > 0){
+            res += 1;
+            num = num/10;
+        }
+        System.out.println(res);
+    }
+}
